@@ -265,6 +265,7 @@ section {
     margin-top: 1rem;
 }
 
+
 /* BLOG */
 .blog-section {
     background: white;
@@ -511,3 +512,36 @@ section {
 .map {
     margin-top: 30px;
 }
+
+
+
+.reservation-section {
+    padding: 60px 0;
+    background: #fff8f0;
+    text-align: center;
+}
+
+.reservation-form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.reservation-form input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.reservation-form button {
+    padding: 12px;
+    background: #ff6b00;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+

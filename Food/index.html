@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="FoodieZone - Premium Restaurant Menu & Food Blog">
     
-    <!-- Favicon – gold fork & knife icon for browser tab (replaces default earth/globe) -->
+
     <link rel="icon" type="image/png" href="https://p2.hiclipart.com/preview/620/219/819/eating-icon-lunch-icon-knife-fork-and-plate-icon-kennewick-high-school-hardware-accessory-yellow-symbol-text-line-school-png-clipart.jpg">
-    <!-- Alternative (more detailed gold version) – uncomment if you prefer -->
-    <!-- <link rel="icon" type="image/png" href="https://img.freepik.com/free-photo/gold-cutlery-set-black-background_1220-4100.jpg?semt=ais_hybrid&w=32&h=32&fit=crop"> -->
+    
     
     <title>FoodieZone – Restaurant Menu & Food Blog</title>
     <link rel="stylesheet" href="style.css">
@@ -33,11 +32,13 @@
                 </label>
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#menu" class="menmu-btn">Menu</a></li>
                     <li><a href="#blog">Blog</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="#signin">Sign In</a></li>
+                    <li><a href="#reservation">Book Table</a></li>
+
 
                 </ul>
             </div>
@@ -51,6 +52,8 @@
                 <h2 class="hero-title">Delicious Food, Delivered with Love</h2>
                 <p class="hero-subtitle">Discover exquisite flavors from our kitchen or read inspiring food stories on our blog</p>
                 <a href="#menu" class="cta-button">Explore Menu</a>
+                <a href="#reservation" class="cta-button">Book a Table</a>
+
             </div>
         </section>
 
@@ -157,6 +160,27 @@
                 </div>
             </div>
         </section>
+
+
+
+        <!-- Reservation Section -->
+            <section class="reservation-section" id="reservation">
+                <div class="container">
+                    <h2 class="section-title">Book a Table</h2>
+                    <p class="section-subtitle">Reserve your table in advance and enjoy your dining experience</p>
+
+                    <form class="reservation-form">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="Email Address" required>
+                        <input type="tel" placeholder="Phone Number" required>
+                        <input type="date" required>
+                        <input type="time" required>
+                        <input type="number" placeholder="Number of Guests" required>
+                        <button type="submit">Reserve Now</button>
+                    </form>
+                </div>
+            </section>
+
 
         <!-- Blog Section -->
         <section class="blog-section" id="blog">
